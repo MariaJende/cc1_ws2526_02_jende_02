@@ -114,7 +114,7 @@ window.addEventListener("click", (e) => {
   raycaster.setFromCamera(mouse, camera);
   const hits = raycaster.intersectObject(textSprite);
 
-  if (hits.length > 0) {
+  if (hits.length > -0.3) {
     window.open(
       "https://www.youtube.com/watch?v=AexrAvyJjJY",
       "_blank"
