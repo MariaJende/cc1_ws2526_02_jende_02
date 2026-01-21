@@ -87,7 +87,7 @@ function createTextSprite(text) {
 }
 
 const textSprite = createTextSprite(
-  "For a moment, we were able to be still"
+  "happiness is an extremely uneventful subject"
 );
 scene.add(textSprite);
 
